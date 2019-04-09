@@ -1,0 +1,8 @@
+<zimlet name="tk_barrydegraaff_reply_by_filter"
+        version="0.0.1"
+        target="main compose-window view-window"
+        label="Send a reply based on a filter"
+        description="Send a reply based on a filter">
+    <include>tk_barrydegraaff_reply_by_filter.js</include>
+   <handlerObject>tk_barrydegraaff_reply_by_filter_HandlerObject</handlerObject>   
+</zimlet>
