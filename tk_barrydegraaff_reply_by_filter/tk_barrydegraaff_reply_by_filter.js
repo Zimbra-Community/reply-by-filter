@@ -239,8 +239,8 @@ ReplyFilterZimlet.prototype.inputReplyText = function(rule)
    zimletInstance._dialog = new ZmDialog( { title:ZmMsg.composeBody, parent:zimletInstance.getShell(), standardButtons:[DwtDialog.OK_BUTTON,DwtDialog.CANCEL_BUTTON], disposeOnPopDown:true } );   
    
    zimletInstance._dialog.setContent(
-   '<div style="width:800px; height:500px;">'+
-   '<div class="DwtInputField"><textarea rows="35" style="width:98%" id="ReplyFilterZimletBody" placeholder="'+ZmMsg.composeBody+'"></textarea></div>' +
+   '<div style="width:500px; height:350px;">'+
+   '<div class="DwtInputField"><textarea rows="22" style="width:98%" id="ReplyFilterZimletBody" placeholder="'+ZmMsg.composeBody+'"></textarea></div>' +
    '</div>'
    );
    
