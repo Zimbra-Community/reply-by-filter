@@ -11,7 +11,7 @@ The recommended method is to deploy using git.
 
 ```
 # apt-get -y install git
-# git clone https://github.com/btactic/reply-by-filter.git
+# git clone https://github.com/Zimbra-Community/reply-by-filter.git
 # cd reply-by-filter
 # chmod +rx build.sh
 # ./build.sh
@@ -19,7 +19,7 @@ The recommended method is to deploy using git.
 
 Now we can deploy the generated tk_barrydegraaff_reply_by_filter.zip as any other zimlet.
 
-Otherwise you can fetch an already built zip file from our [reply-by-filter releases](https://github.com/btactic/reply-by-filter/releases).
+Otherwise you can fetch an already built zip file from our [reply-by-filter releases](https://github.com/Zimbra-Community/reply-by-filter/releases).
 
 
 # Development Installation
