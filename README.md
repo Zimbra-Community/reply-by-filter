@@ -26,7 +26,7 @@ Otherwise you can fetch an already built zip file from our [reply-by-filter rele
 
 Only deployment in development mode is supported, this means it is enabled for all users and it cannot be configured via CoS settings:
 
-      mkdir /opt/zimbra/zimlets-deployed/_dev/tk_barrydegraaff_reply_by_filter/
+      mkdir -p /opt/zimbra/zimlets-deployed/_dev/tk_barrydegraaff_reply_by_filter/
       wget https://raw.githubusercontent.com/Zimbra-Community/reply-by-filter/master/tk_barrydegraaff_reply_by_filter/tk_barrydegraaff_reply_by_filter.js -O /opt/zimbra/zimlets-deployed/_dev/tk_barrydegraaff_reply_by_filter/tk_barrydegraaff_reply_by_filter.js
       wget https://raw.githubusercontent.com/Zimbra-Community/reply-by-filter/master/tk_barrydegraaff_reply_by_filter/tk_barrydegraaff_reply_by_filter.xml -O /opt/zimbra/zimlets-deployed/_dev/tk_barrydegraaff_reply_by_filter/tk_barrydegraaff_reply_by_filter.xml
 
